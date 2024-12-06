@@ -5,7 +5,7 @@ import Loader from "../Loader/Loader.jsx";
 import ErrorMessage from "../ErrorMessage/ErrorMessage.jsx";
 import LoadMoreBtn from "../LoadMoreBtn/LoadMoreBtn.jsx";
 import ImageModal from "../ImageModal/ImageModal.jsx";
-import SearchForm from "../SearchForm/SearchForm.jsx";
+import SearchForm from "../SearchBar/SearchForm.jsx";
 import css from "./App.module.css";
 
 export default function App() {
