@@ -1,10 +1,9 @@
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
-  list-style: none;
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-.gallery li {
-  margin-bottom: 0;
+.item {
 }

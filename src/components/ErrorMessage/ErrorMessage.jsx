@@ -1,7 +1,5 @@
-export default function ErrorMessage() {
-  return (
-    <div>
-      <b>Something went wrong! Try again</b>
-    </div>
-  );
-}
+import React from "react";
+
+const ErrorMessage = ({ message }) => <p>{message}</p>;
+
+export default ErrorMessage;

@@ -1,17 +1,20 @@
-import { Vortex } from "react-loader-spinner";
-export default function Loader() {
+import React from "react";
+import { Hourglass } from "react-loader-spinner";
+
+const Loader = () => {
   return (
-    <>
-      <Vortex
+    <div>
+      <Hourglass
         visible={true}
-        height="80"
-        width="80"
-        ariaLabel="vortex-loading"
+        height="40"
+        width="40"
+        ariaLabel="hourglass-loading"
         wrapperStyle={{}}
-        wrapperClass="vortex-wrapper"
-        colors={["red", "green", "blue", "yellow", "orange", "purple"]}
+        wrapperClass=""
+        colors={["#306cce", "#72a1ed"]}
       />
-      <b>Loading...</b>
-    </>
+    </div>
   );
-}
+};
+
+export default Loader;
